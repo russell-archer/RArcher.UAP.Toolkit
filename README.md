@@ -23,4 +23,4 @@ However, by creating RArcher.Phone.Toolkit and RArcher.WinRT.Toolkit, I did gain
 
 ![](./readme-assets/winrt-toolkit03.png)
 
-I've found maintaining app state to be an error-prone chore. The toolkit provides classes which enables view models and other models to automatically save/restore properties as and when required. For example, all you need to do is decorate a view model property with the [AutoState] attribute and ViewModelBase and ModelBase take care of all the load/save mechanics. I did a write-up on the principles of the mechanism previously. In version 1.3-onwards, the toolkit also supports the automatic management of global settings.
+I've found maintaining app state to be an error-prone chore. The toolkit provides classes which enables view models and other models to automatically save/restore properties as and when required. For example, all you need to do is decorate a view model property with the [AutoState] attribute and ViewModelBase and ModelBase take care of all the load/save mechanics. In version 1.3-onwards, the toolkit also supports the automatic management of global settings.
